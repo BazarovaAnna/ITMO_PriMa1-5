@@ -49,3 +49,4 @@ for x in coupleP:
     coupleP[x]=coupleP[x]/(count-1)#couple count=count-1
     coupleH-=coupleP[x]*p[x[1]]*math.log2(coupleP[x])
 print("H*: ", f'{coupleH:.4f}')
+file.close()
