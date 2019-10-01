@@ -23,7 +23,7 @@ for c in file.read():#here file.read is a string that contains all the symbols o
     else:
         sym="."
     
-    p.setdefault(sym,1)#this function looks for sym in the dict, and if there is no such a thing, it adds this to dict with the 1
+    p.setdefault(sym,0)#this function looks for sym in the dict, and if there is no such a thing, it adds this to dict with the 0
     p[sym]+=1
     if count>0:
         coupleP.setdefault(prev+sym,1)
